@@ -264,7 +264,7 @@ section.our_team h2{
     justify-content: center;
 }
 section.our_team{
-	background-image: url('../img/_src/our-team-bg.png');
+	background-image: url('../img/src/our-team-bg.png');
 	background-repeat: no-repeat;
     background-size: cover;
 }
