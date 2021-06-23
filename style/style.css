@@ -38,7 +38,9 @@
 }
 .navbar ul>li.nav-item a.navbar-brand img{
 }
-
+.collapse.navbar-collapse{
+	justify-content: center;
+}
 
 
 
@@ -115,14 +117,15 @@ section#head .main-head h1{
 }
 
 section#head .main-head h1:before{
-	content: '';
-    position: absolute;
+	content: none;
+	/*content: '';*/
+    /*position: absolute;
     bottom: 315px;
     width: 60px;
     height: 5px;
     border-radius: 5px;
     background-color: #E8C300;
-    left: calc(50% - 30px);
+    left: calc(50% - 30px);*/
 }
 section#head .main-head .link-button a{
 	height: 60px;
