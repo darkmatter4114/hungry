@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1140px){
+@media (min-width: 576px) and (max-width: 768px){
 
 .navbar{
     padding: 0;
@@ -205,7 +205,6 @@ section#about	.description{
 	}
 section#about	.description .wrapper{
 		margin-top: 100px;
-		width: 600px;
 	    align-items: center;
 	    display: flex;
 	    flex-direction: column;}
@@ -603,6 +602,8 @@ section#delicious_menu .wrapper p.strong{
 	margin-top: 51px;
 }
 .tab-content .list{
+	margin: auto;
+    width: max-content;
 	display: flex;
     justify-content: center;
     align-items: center;
@@ -718,7 +719,7 @@ section#event .img_wrap img{
 }
 
 section#contact {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 100px;
 }
 
