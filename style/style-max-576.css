@@ -1,4 +1,4 @@
-@media (max-width: 576px){
+@media screen and  (min-device-width: 430px) and (max-device-width: 575px){
 
 	.navbar{
 		padding: 0;
@@ -100,9 +100,9 @@
 
 	section#head .main-head .link-button{
 		display: flex;
-	    flex-wrap: wrap;
-	    justify-content: center;
-	    flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: row;
 	}
 	section#head .main-head h1{
 		font-family: Banny;
@@ -210,7 +210,9 @@
 		margin-top: 50px;
 		align-items: center;
 		display: flex;
-		flex-direction: column;}
+		flex-direction: column;
+		width: 100%;
+		}
 
 		section#about	.description .wrapper p{
 			text-align: center;
@@ -229,6 +231,7 @@
 			text-align: center;
 			color: #000000;
 			margin-bottom: 25px;
+			width: 75%;
 		}
 
 
@@ -345,6 +348,7 @@
 		section.cook_a_table .wrapper {
 			height: 100%;
 			display: flex;
+			flex-wrap: wrap;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
@@ -367,11 +371,14 @@
 			flex-wrap: wrap;
 		}
 
+		section.cook_a_table .wrapper .input_wrapper{
+			width: 100%;
+		}
 		section.cook_a_table .wrapper .input_wrapper select{
 			padding-right: 20px;
 		}
 		section.cook_a_table .wrapper .input_wrapper input, select{
-			width: 277px;
+			width: 100%;
 			height: 60px;
 			background: #E5E5E5;
 			border-radius: 5px;
@@ -765,20 +772,11 @@
 		line-height: 28px;
 	}
 
-	section#contact .cont_wrap {
-		margin-top: 50px;
-	}
-	section#contact .cont_wrap form{
-		display: flex;
-		flex-wrap: wrap;
-		align-items: end;
-		justify-content: space-between;
-	}
+
 	section#contact .cont_wrap form .input_wrapper{
 		width: 90%;
 		margin-left: auto;
-    	margin-right: auto;
-		height: 60px;
+		margin-right: auto;
 		margin-bottom: 10px;
 	}
 	section#contact .cont_wrap form .input_wrapper input{
@@ -790,42 +788,26 @@
 	}
 	section#contact .cont_wrap form .input_wrapper_area{
 		justify-content: center;
-	    width: 100%;
-	    display: flex;
-	    margin-bottom: 10px;
+		width: 100%;
+		display: flex;
+		margin-bottom: 10px;
 	}
 	section#contact .cont_wrap form .input_wrapper_area textarea{
 		width: 90%;
-		border: none;
-		padding-left: 20px;
-		padding-top: 15px;
-		background: #E5E5E5;
 	}
 	section#contact .cont_wrap form button{
 		width: 90%;
-		margin-top: 10px;
-		background: #E8C300;
-		border-radius: 5px;
-		height: 60px;
-		color: white;
-		border: navajowhite;
 		margin-left: auto;
-    	margin-right: auto;
+		margin-right: auto;
 	}
 	section#contact .cont_wrap form .input_wrapper_cont{
-		align-self: center;
-		font-style: normal;
-		font-size: 14px;
-		line-height: 14px;
-		display: flex;
-		align-items: center;
-		border-radius: 5px;
 		width: 100%;
 		justify-content: center;
 		flex-wrap: wrap;
 	}
 	section#contact .cont_wrap form .input_wrapper_cont span{
 		margin-right: 15px;
+		margin-left: 10px;
 	}
 	section#contact .cont_wrap form .fas:before{
 		margin-right: 5px;

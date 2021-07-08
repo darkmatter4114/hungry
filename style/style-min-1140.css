@@ -1,0 +1,42 @@
+@media screen and (min-width: 1200px){
+	section#contact .cont_wrap form button{
+	width: 40% !important;
+	margin-left: 0;
+    margin-right: 0;
+}
+
+section.our_team .img_wrapper{
+	display: flex;
+    justify-content: center;
+}
+section.our_team .img_wrapper:before{
+	left: -18%;
+}
+
+section#specialties .img_wrapper{
+	display: flex;
+    justify-content: center;
+}
+
+section#contact .cont_wrap form .input_wrapper {
+    width: calc((100% - 20px)/3);
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+section#contact .cont_wrap form .input_wrapper_cont {
+    align-self: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+section#contact .cont_wrap form .input_wrapper_area textarea {
+    width: 100%;
+}
+
+}

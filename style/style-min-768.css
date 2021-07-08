@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) and (max-width: 1140px){
-
 .navbar{
     padding: 0;
     max-width: 1440px;
@@ -10,8 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 133px;
-    /*height: 100px;*/
+    width: 115px;
 }
 .navbar ul>li.nav-item a{
 	font-family: Open Sans;
@@ -188,8 +186,7 @@ section#about	.description .title{
 section#about	.description .title:before{
 		content: '';
 	    position: absolute;
-	    /*bottom: -10px;*/
-	    top: 150px;
+	    bottom: -10px;
 	    width: 60px;
 	    height: 5px;
 	    border-radius: 5px;
@@ -319,11 +316,18 @@ section.our_team .title:before{
 section.cook_a_table{
 	margin-top: 100px;
 }
-section.cook_a_table .img_wrapper{
-	display: none;
+section.cook_a_table .img{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
+
 section.cook_a_table .img_wrapper:before{
 	content: none;
+}
+section.cook_a_table .img_wrapper{
+	/*display: none;*/
 }
 section.cook_a_table .wrapper .title{
 	font-family: Banny;
@@ -358,7 +362,10 @@ section.cook_a_table .wrapper form{
     justify-content: center;
     flex-wrap: wrap;
 }
-
+section.cook_a_table .wrapper .input_wrapper{
+	width: inherit;
+	width: inherit;
+}
 section.cook_a_table .wrapper .input_wrapper select{
 	padding-right: 20px;
 }
@@ -375,21 +382,8 @@ section.cook_a_table .wrapper .input_wrapper input, select:nth-child(odd){
 	margin-right: 10px;
 }
 section.cook_a_table .wrapper  button{
-	border: none;
-	height: 60px;
-    width: 60%;
-    background: #E8C300;
-    border-radius: 5px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+	width: 277px;
+	margin-right: 10px;
 }
 
 section.cook_a_table .wrap_schedule .bold{
@@ -754,20 +748,11 @@ section#contact .wrapper p.strong{
 	line-height: 28px;
 }
 
-section#contact .cont_wrap {
-	margin-top: 50px;
-}
-section#contact .cont_wrap form{
-	display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    justify-content: space-between;
-}
 section#contact .cont_wrap form .input_wrapper{
 	width: calc((100% - 20px)/3);
-    height: 60px;
     margin-bottom: 10px;
 }
+
 section#contact .cont_wrap form .input_wrapper input{
 	width: 100%;
     height: 60px;
@@ -780,28 +765,11 @@ section#contact .cont_wrap form .input_wrapper_area{
 }
 section#contact .cont_wrap form .input_wrapper_area textarea{
 	width: 100%;
-	border: none;
-    padding-left: 20px;
-    padding-top: 15px;
-    background: #E5E5E5;
 }
 section#contact .cont_wrap form button{
 	width: 100%;
-	margin-top: 10px;
-    background: #E8C300;
-    border-radius: 5px;
-    height: 60px;
-    color: white;
-    border: navajowhite;
 }
 section#contact .cont_wrap form .input_wrapper_cont{
-	align-self: center;
-	font-style: normal;
-	font-size: 14px;
-	line-height: 14px;
-	display: flex;
-	align-items: center;
-	border-radius: 5px;
 	width: 100%;
     justify-content: center;
 }
